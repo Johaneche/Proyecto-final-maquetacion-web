@@ -1,0 +1,85 @@
+.grid-container{
+    display: grid;  /*de esta manera tenemos un contenedor que funciona como cuadricula*/
+    /* grid-template-columns: auto auto auto auto auto auto;  */
+
+    
+    grid-template-areas: 
+    "header header header"
+    "navbar navbar navbar"
+    "noticias  .  publicidades"
+    "noticias  .  publicidades"
+    "noticias  .  banner"
+    "footer footer footer";
+    
+    
+    background-color: rgb(16, 143, 143);
+    border: 2px groove black;
+    padding: 10px;
+    gap: 5px;
+
+    /* justify-content: center;  distribucion horizontal */
+
+    
+}
+
+.grid-item{
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.item1{
+    grid-area: header;
+}
+
+.item2{
+    grid-area: navbar;
+}
+
+.item3{
+    grid-area: noticias;
+}
+
+.item4{
+    grid-area: publicidades;
+}
+
+.item5{
+    grid-area: banner;
+}
+
+.item6{
+    grid-area: footer;
+}
+
+/* Modificar el ancho del viewport y se vaya ajustando la pantalla */
+@media screen and (max-width: 1000px){
+    .grid-container{
+        grid-template-areas: 
+        "header header header"
+        "navbar navbar navbar"
+        "noticias  noticias  publicidades"
+        "noticias  noticias  publicidades"
+        "noticias  noticias  banner"
+        "footer footer footer";
+    }
+}
+
+@media screen and (max-width: 600px){
+    .grid-container{
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "noticias"
+        "publicidades"
+        "banner"
+        "footer";
+        gap: 2px;
+
+    }
+}
+
+    

@@ -1,0 +1,20 @@
+div{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    text-indent: 50px;  /*Colocar una sangría al inicio del párrafo */
+    letter-spacing: 1px;  /*Colocar un espaciado entre cada letra, puede ser negativo */
+    line-height: 1.5; /*es en formato factor 1 es 100%*/
+    word-spacing: 3px;  /*Colocar un espaciado entre cada palabra*/
+
+    /*Text Shadow*/
+
+    text-shadow: 2px 2px 2px rgb(150, 147, 147);  /*1er valor hacia la izq, 2do valor hacia abajo, 3er valor desenfoque */
+
+}
+

@@ -1,0 +1,17 @@
+ul{
+    /* list-style-image: url(icono.png)  Colocar una imagen como figura  */
+    background: rgb(219, 219, 223); 
+    margin: 5px;
+    padding: 10px 0;
+}
+
+ul li{
+    background: rgb(65, 65, 221); 
+    margin: 10px;
+    padding: 5px;
+}
+
+ol.ordenada{
+    list-style-type: decimal-leading-zero;
+}
+

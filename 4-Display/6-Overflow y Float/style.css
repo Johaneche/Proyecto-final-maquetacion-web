@@ -1,0 +1,21 @@
+div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: coral;
+    overflow: scroll;  /**/
+    
+    /*Hidden funciona para ocultar el contenido que se sale del contenedor*/
+    /* Scroll, funciona con un scroll interno */
+    /* Auto, determina si coloca scrol horizontal y vertica */
+    /* overflow-wrap: break-word;   tiene la funcion de cortar palabras muy largas y las pone en el renglon sgte */
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+
+    float: left;  /* Le permite al texto ubicarse al lado de la imagen*/
+
+}

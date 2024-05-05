@@ -1,0 +1,27 @@
+
+div, span{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+.cajita{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+
+    margin: 100px;  /*100px para los cuatro lados*/
+    /*  margin: 100px 10px;  /*100px para arriba y abajo (1er), 10px para izq y der (2do) (vertica y horizontal)*/
+    /*  margin: 100px 20px 200px;  /*100px para arriba y abajo (1er), 20px para izq (2do), 200px para der (3er) (arriba/abajo, horizontal)*/ 
+    /*  margin: 100px 20px 30px 40px;  /*100px para arriba y abajo (1er), 20px para der (2do), 30px para abajo (3er), 40pm para izq (4to) (sentido horario)*/
+
+}
+
+.cajita2{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}

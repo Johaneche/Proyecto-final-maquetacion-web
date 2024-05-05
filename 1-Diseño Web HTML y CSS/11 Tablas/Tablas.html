@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Proyectos HTML de Digital House</title>
+
+    <!--  Estilo para visualizar la Tabla-->
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+
+</head>
+
+<body>
+
+    <h1>Tablas en HTML </h1>
+    
+    <table>     <!-- Etiqueta de Tabla -->
+        <tr>    <!-- Etiqueta de Fila (row )-->
+            <th>Alumnos</th>    <!-- Etiqueta de Titulo de Tabla (encabezado)-->
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <th>1</td>      <!-- Etiqueta de Informacion de Tabla (data)-->
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <th>2</td>
+            <td>Rodrigo</td>
+            <td>Gonzalez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th>3</td>
+            <td>Humberto</td>
+            <td>Velez</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <th>4</td>
+            <td>Cecilia</td>
+            <td>Ramirez</td>
+            <td>10</td>
+        </tr>
+
+    </table>
+
+
+    <br>
+    <hr>  <!-- El <hr> me sirve para separar con una linea divisoria -->
+    <br>
+
+
+    <table>     <!-- Etiqueta de Tabla -->
+        
+        <colgroup> <!-- Cambiar el color de fondo de la primer columna-->
+            <col span="1" style="background-color: rgb(162, 184, 203);">
+        </colgroup>
+
+        <tr>    <!-- Etiqueta de Fila (row )-->
+            <th>Alumnos</th>    <!-- Etiqueta de Titulo de Tabla (encabezado)-->
+            <th colspan="2">Nombre y Apellido</th> <!-- COLSPAN NOS AYUDARA A EXTERNDER HORIZONTALMENTE-->
+            <th>Notas</th>
+        </tr>
+        <tr>
+            <td>1</td>      <!-- Etiqueta de Informacion de Tabla (data)-->
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rodrigo</td>
+            <td>Gonzalez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Humberto</td>
+            <td rowspan="2">Velez</td>  <!-- ROWSPAN NOS AYUDARA A EXTERNDER VERTICALMENTE-->
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Cecilia</td>
+            <td>10</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

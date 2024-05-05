@@ -1,0 +1,69 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;  /*definir el fondo original*/
+    text-align: center;
+    margin: 2px;
+
+    /*Declarando las opciones de animation version larga
+    animation-name: prueba;
+    animation-duration: 3s;
+    animation-delay: 2s; /*Solo funciona al comienzo, no es la repeticiones*/
+    /* animation-iteration-count: 3; La cantidad de repeticiones */
+    
+
+
+}
+
+.curva1{
+    animation: prueba 1s linear infinite alternate;
+}
+.curva2{
+    animation: prueba 1s ease infinite alternate;
+}
+.curva3{
+    animation: prueba 1s ease-in infinite alternate;
+}
+.curva4{
+    animation: prueba 1s ease-out infinite alternate;
+}
+.curva5{
+    animation: prueba 1s ease-in-out infinite alternate;
+}
+
+
+
+
+/* desde donde hasta donde va la animacion */
+
+@keyframes prueba {
+    /* Desde un color inicial hasta un color final */
+    from {
+        width: 100px;
+    }
+    to {
+        width: 300px;
+    } 
+
+    /* Cambios porcentuales */
+    /*
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+    */
+
+}
+
+

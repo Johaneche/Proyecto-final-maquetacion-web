@@ -1,0 +1,19 @@
+div{
+    width: 150px;
+    height: 70px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.uppercase{
+    text-transform: uppercase;      /*Todo el texto el Mayuscula*/
+}
+
+.lowercase{
+    text-transform: lowercase;      /*Todo el texto el Minuscula*/
+}
+
+.capitalize{
+    text-transform: capitalize;     /*Texto con la primera letra de cada palabra en Mayuscula*/
+}

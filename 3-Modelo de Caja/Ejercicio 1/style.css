@@ -1,0 +1,8 @@
+div{
+    width: 100px;  /*Ancho fijo*/
+    border: 1px solid red; /*Borde 1px, solido y de color rojo*/
+    padding: 5px;   
+    margin: 10px;
+    box-sizing: border-box
+}
+

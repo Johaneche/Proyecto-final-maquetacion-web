@@ -1,0 +1,91 @@
+.contenedor1{
+    background-color: yellow;
+    width: 100px;       /*Ancho */
+    height: 30px;      /*Alto */
+}
+.contenedor2{
+    background-color: blue;
+    width: 100px;
+    height: 10px;
+}
+.contenedor3{
+    background-color: red;
+    width: 100px;
+    height: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+div{
+    border-width: 5px;      /*Este sirve para dar grosor del borde*/
+    border-radius: 10px;    /*Este sirve para redondear las esquinas*/
+}
+
+
+.solid{
+    width: 100px;
+    height: 50px;
+    border-style: solid;
+}
+
+.dotted{
+    width: 100px;
+    height: 50px;
+    border-style: dotted;
+}
+
+.dashed{
+    width: 100px;
+    height: 50px;
+    border-style: dashed;
+}
+
+.double{
+    width: 100px;
+    height: 50px;
+    border-style: double;
+}
+
+.groove{
+    width: 100px;
+    height: 50px;
+    border-style: groove;
+}
+
+.ridge{
+    width: 100px;
+    height: 50px;
+    border-style: ridge;
+}
+
+.inset{
+    width: 100px;
+    height: 50px;
+    border-style: inset;
+}
+
+.outset{
+    width: 100px;
+    height: 50px;
+    border-style: outset;
+}
+
+.none{
+    width: 100px;
+    height: 50px;
+    border-style: none;
+}
+
+.hidden{
+    width: 100px;
+    height: 50px;
+    border-style: hidden;
+}
+
+.mix{
+    width: 100px;
+    height: 50px;
+    border-style: dotted dashed solid double;
+}

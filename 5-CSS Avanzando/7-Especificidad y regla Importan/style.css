@@ -1,0 +1,11 @@
+.parrafo{
+    color: green;
+}
+
+#paragraph{         /*Por jerarquia el id es mas especifico*/
+    color: blue;
+}
+
+p{
+    color: red; !important     /*!important le cambio el nivel de jerarquia, no es recomendable utilizarlo*/
+}

@@ -1,0 +1,26 @@
+/*Sintaxis del Pseudoelemento
+selector:: pseudoelemento{
+    propiedad: valor;
+
+}
+*/
+
+p.primer-parrafo::first-letter{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+
+::marker{  
+    color: blue;
+    font-size: 20px;
+
+}
+
+::selection{
+    background-color: aqua;
+    color: brown;
+    
+}
+

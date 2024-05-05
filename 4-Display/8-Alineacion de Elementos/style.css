@@ -1,0 +1,24 @@
+.center{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin: auto;  /*Con este margin auto centramos nuestro DIV*/
+    text-align: center;
+
+}
+
+.float{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    float: right;        /*Con este alineamos a la izq o der el DIV*/
+
+}
+
+img{
+    display: block;  /*Para poder centrar una imagen debo definir display bloque*/
+    margin: 50px auto;      /*Vertical de 50px y horizontal auto para poder centrarlo*/
+    height: 300px;
+}

@@ -1,0 +1,23 @@
+/* ID se llama con numeral '#' */
+#titulo-principal {
+    color: red;
+}
+
+/* CLASS se llama con punto '.' */
+.color-azul {
+    color: blue
+}
+
+/* Selector combinado 
+Es decir, los elementos <p> que tengan la clase azul van a tener esta caracteristica */
+p.color-azul{
+    text-align: center;
+}
+
+/* Si quiero seleccionar mas de uno, utilizo coma ','*/
+p,h1{
+    background-color: aqua;
+}
+
+/* Para cambiar el estilo a toda la web utilizo asterisco '*'   */
+

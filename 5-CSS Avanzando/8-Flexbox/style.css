@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex; /*de esta forma hacemos que se comporte como flexbox*/
+    flex-wrap: wrap;  /*nowrap= no contenido o no empaquetado, wrap lo contrario*/
+    background-color: rgb(44, 141, 141);
+    height: 500px;
+
+
+
+    flex-direction: row;  /*colocamos como main axis el eje horizontal, lectura izq a der*/
+    justify-content: center;      /*alineamos cajas al centro*/
+    /* flex-flow: row wrap     Siver para colocar en una misma linea de codigo la direccion y si esta contenido o no*/
+    
+    
+    /*align-items: center;   /*SOLO FUNCIONA si es nowrap*/
+
+    align-content: center;  /*FUNCIONA cuando es wrap*/
+}
+
+.flex-container>div{   /*para que los hijos de flex-container que son div tengan estas caracteristicas */
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    margin: 10px;
+
+
+
+}

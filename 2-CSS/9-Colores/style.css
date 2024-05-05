@@ -1,0 +1,42 @@
+/* COLORES */
+/* Color Names: Hay 140 tipos de nombres en CSS */
+
+h2{
+    color: firebrick;
+    background-color: black;
+
+}
+
+/* Colores RGB: Red, Green, Blue */
+h2{
+    color: rgb(180, 180,180);
+    background-color: rgba(150, 0, 150, 0.5);
+
+}
+
+/* Colores con Código HEXAGESIMAL: #ffffff */
+h2{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* Colores con HLS */
+h2{
+    color: hsl(0, 93%, 33%);
+    background-color: hsl(224, 93%, 35%);
+}
+
+
+/* BACKGROUND */
+
+body{
+    background-color: rgba(137, 43, 226, 0.425);
+    background-image: url(nubes.jpg);
+    background-size: cover;
+}
+
+/* 
+p{
+    background-image: url(nubes.jpg);
+    background-size: cover;
+} */

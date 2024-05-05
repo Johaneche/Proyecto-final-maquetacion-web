@@ -1,0 +1,5 @@
+.hidden{
+    display: none;
+    /* None desaparece el texto y el espacio que ocupa el texto */
+    /* Vs el Hidden que mantiene el espacio que ocupa el elemento */
+}

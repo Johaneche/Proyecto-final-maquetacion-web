@@ -1,0 +1,94 @@
+.contenedor1{
+    background-color: yellow;
+    width: 100px;       /*Ancho */
+    height: 30px;      /*Alto */
+}
+.contenedor2{
+    background-color: blue;
+    width: 100px;
+    height: 10px;
+}
+.contenedor3{
+    background-color: red;
+    width: 100px;
+    height: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+div{
+    border-width: 5px;      /*Este sirve para dar grosor del borde*/
+    border-radius: 10px;    /*Este sirve para redondear las esquinas*/
+}
+
+
+.solid{
+    width: 100px;
+    height: 50px;
+    border: 4px solid green;
+    outline: 4px solid black;   /*Se crea un linea afuera del borde, en este caso de color negro*/
+    /*Si la queremos separar debemos usar 'outline-offset: ' pero que no sea mayor que el tamaño del borde*/
+
+}
+
+.dotted{
+    width: 100px;
+    height: 50px;
+    border-style: dotted;
+}
+
+.dashed{
+    width: 100px;
+    height: 50px;
+    border-style: dashed;
+}
+
+.double{
+    width: 100px;
+    height: 50px;
+    border-style: double;
+}
+
+.groove{
+    width: 100px;
+    height: 50px;
+    border-style: groove;
+}
+
+.ridge{
+    width: 100px;
+    height: 50px;
+    border-style: ridge;
+}
+
+.inset{
+    width: 100px;
+    height: 50px;
+    border-style: inset;
+}
+
+.outset{
+    width: 100px;
+    height: 50px;
+    border-style: outset;
+}
+
+.none{
+    width: 100px;
+    height: 50px;
+    border-style: none;
+}
+
+.hidden{
+    width: 100px;
+    height: 50px;
+    border-style: hidden;
+}
+
+.mix{
+    width: 100px;
+    height: 50px;
+    border-style: dotted dashed solid double;
+}

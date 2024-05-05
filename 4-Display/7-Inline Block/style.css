@@ -1,0 +1,28 @@
+span{
+    background-color: red;
+    border: 1px solid black;
+    /* Si trato de modificar el ancho y alto no me permite */
+    height: 200px;
+    width: 200px;
+    /* Para ello debo de utilizar el display: block o inline-block*/
+    display: inline-block;
+}
+.nav{
+    background-color: aqua;
+    list-style-type: none;
+    text-align: end;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
